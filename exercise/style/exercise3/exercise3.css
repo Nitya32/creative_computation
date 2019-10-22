@@ -1,0 +1,70 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.container{
+    width: 75vw;
+    height: auto;
+    margin: auto;
+}
+h1{
+	font-family: 'Playfair Display', serif;
+	font-size:14 ;
+	line-height:normal;
+}
+h2{
+	font-family: 'Playfair Display', serif;
+	font-size:12 ;
+	line-height:normal ;
+}
+p{
+	font-family: 'Arimo', sans-serif;
+	font-size:8;
+	line-height:normal ;
+}
+.flex_parent
+{
+    display:flex;
+    margin-top: 50px;
+    flex-direction: row;
+    
+}
+
+.image
+{flex:2;
+width:100%;
+    margin-right: 20px
+}
+
+.text
+{flex:1;
+
+}
+
+.grid_parent
+{display:grid;
+    display: grid;}
+  
+.child1, .child2, .child3, .child4 {
+    margin-right: 20px;
+}
+
+.child1
+{grid-column:1;
+    grid-row:1;}
+ 
+.child2
+{grid-column:2;
+    grid-row:1;}
+ 
+.child3
+{grid-column:3;
+    grid-row:1;}
+ 
+.child4
+{grid-column:1;
+    grid-row:2;
+    margin-top: 20px;
+}
+ 

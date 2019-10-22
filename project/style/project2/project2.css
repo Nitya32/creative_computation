@@ -1,0 +1,19 @@
+body
+{background-color:#100d14;
+padding:1em;}
+.text
+{
+    color:red;
+ float:left;
+    font-size:12;
+display:grid;
+    grid-template-rows: 30% 70%;
+    text-align: left;
+margin-left:30px;}
+
+.back
+{color:white;
+font-size:30;
+display:grid;
+    grid-template-columns: 30% 70%;
+ }

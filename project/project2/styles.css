@@ -1,0 +1,89 @@
+#rect1
+{
+width: 1136px;
+height: 1600px;
+background-color: #0d0912;
+
+}
+h2
+{
+color: #ff0000;
+font-family: "Trade Gothic LT Std - Bd 2";
+font-size: 31px;
+font-weight: 400;
+left: 329px;
+top: 69px;
+position: absolute;
+margin: 0;
+}
+h1
+{
+position: absolute; 
+
+color: #cccccc;
+font-family: "Helvetica Neue";
+font-size: 426px;
+font-weight: 700;
+left: 320px;
+top: 969px;
+margin-top: -60px;
+}
+h3
+{
+
+color: #999999;
+font-family: "Helvetica Neue";
+font-size: 426px;
+font-weight: 700;
+    position: absolute;
+    margin-top: -60px;
+    left:-34px;
+    top: 967px;
+}
+h4
+{
+
+color: #ff0000;
+font-family: "Trade Gothic LT Std - Bd 2";
+font-size: 31px;
+font-weight: 400s;
+top: 99px;
+    left: 322px;
+    position: absolute;
+    margin: 0;
+}
+
+h5
+{
+color: #ff0000;
+font-family: "Trade Gothic LT Std - Bd 2";
+font-size: 31px;
+font-weight: 400;
+position:absolute;
+margin: 0;
+left:360px;
+top:1357px;
+}
+
+h6
+{
+color: #ff0000;
+font-family: "Trade Gothic LT Std - Bd 2";
+font-size: 31px;
+font-weight: 400;
+position:absolute;
+margin:0px;
+left:360px;
+top:1419px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+.parent{
+display:flex;
+}
+.image
+{
+    flex:2;
+}
+.text
+{
+    flex:1;
+}
