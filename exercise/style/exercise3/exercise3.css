@@ -3,6 +3,48 @@
 	padding:0;
 }
 
+.info
+{position:absolute;
+}
+
+.info
+{}
+
+.nav
+{
+    display:flex;
+    width: 100vw; 
+    box-sizing:border-box;
+    background-color: white;
+    position:fixed;
+    top:0;
+    
+    
+    
+  
+}
+.nav_1
+{padding-top:15px;
+    flex:3;
+margin-left:60px;}
+.nav_2
+{
+    flex:2;
+text-align: center;}
+.nav_3
+{flex:3;
+padding-top:15px;
+margin-left:70px;}
+
+.social{
+    width:30px;
+    margin-left:20px;
+/*margin-left:10px;*/
+/*    height:10px;*/
+}
+.nav_link{
+    margin-right:20px;
+}
 .container{
     width: 75vw;
     height: auto;
