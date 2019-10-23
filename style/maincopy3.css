@@ -61,13 +61,23 @@ img {
     background-color: darkgray;
 }
 
-.purple {
+.steelblue {
     background-color: lightsteelblue;
 }
 
-.purple:hover {
+.steelblue:hover {
     background-color: darkgray;
 }
+
+.lightcyan {
+    background-color: lightcyan;
+}
+
+.lightcyan:hover {
+    background-color: darkgray;
+}
+
+
 
 
 .inner-item {
