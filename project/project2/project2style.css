@@ -1,0 +1,141 @@
+.Der 
+{
+ color:darkgrey;
+    font-family: "Trade Gothic LT Std - Bd 2";
+font-size: 100px;
+font-weight: 400;
+    position:absolute;
+    top: 20vw;
+    left:35vw;
+/*    animation: move 5s infinite ease-in 0s normal alternate;*/
+    animation: move 2s infinite alternate;
+    z-index: 1;
+}
+    
+/*.Der:hover{
+  transform:translate(100px, 0px);
+}*/
+
+
+@keyframes move {
+    from {
+        opacity   : 0.5;
+       transform:scale(1) translate(0,0);
+    }
+    to
+    {
+        opacity   : 1;
+         transform:scale(1.2) translate(5vw, 0);
+        z-index: 3;
+    }
+}
+
+
+.Film
+{
+ color:grey;
+    font-family: "Trade Gothic LT Std - Bd 2";
+font-size: 100px;
+font-weight: 400;
+    position:absolute;
+    top: 20vw;
+    left:50vw;
+    animation: move2 2s infinite 2s alternate;
+    z-index: 2;
+}
+
+@keyframes move2 {
+    from {
+        opacity   : 0.5;
+       transform:scale(1) translate(0,0);
+    }
+    to
+    {
+        opacity   : 1;
+         transform:scale(1.2) translate(-5vw, 0);
+        z-index: 3;
+    }
+}
+/*.Film:hover{
+  transform:translate(-100px, 0px);
+}*/
+
+
+
+.class_parent 
+{display:grid;
+    width:50vw;
+    height:100vh;
+ grid-template-rows: 1fr 4fr 1fr;
+grid-template-columns: 1fr 1fr 1fr; 
+grid-template-areas: ". a1 ."
+                    ". .  ."
+                    ". a2 .";
+    background-color:black ;
+    margin-left: 30vw;
+}
+
+.childtoptext
+{
+grid-area:a1;
+/*grid:2;*/
+}
+.bottomtext{
+    grid-area: a2;
+}
+.grandchildh4{
+
+color: #ff0000;
+font-family: "Trade Gothic LT Std - Bd 2";
+font-size: 31px;
+font-weight: 400;
+/*
+top: 99px;
+    left: 322px;
+    position: absolute;
+    margin: 0;
+    margin-top: 20px;
+*/
+}
+
+.grandchildh2
+{
+color: #ff0000;
+font-family: "Trade Gothic LT Std - Bd 2";
+font-size: 31px;
+font-weight: 400;
+/*
+left: 329px;
+top: 69px;
+position: absolute;
+margin: 0;
+*/
+}
+
+.grandchildh5
+{
+ color: #ff0000;
+font-family: "Trade Gothic LT Std - Bd 2";
+font-size: 31px;
+font-weight: 400;
+/*
+position:absolute;
+margin: 0;
+left:360px;
+top:1357px;   
+*/
+}
+
+.grandchildh6
+{
+ color: #ff0000;
+font-family: "Trade Gothic LT Std - Bd 2";
+font-size: 31px;
+font-weight: 400;
+/*
+position:absolute;
+margin:0px;
+left:360px;
+top:1419px;   
+*/
+}
