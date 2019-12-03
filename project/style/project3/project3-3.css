@@ -1,0 +1,403 @@
+.nani{
+    display:grid;
+    grid-template-areas: "poster1"
+                        "poster2"
+    
+    
+}
+.rajnimasi{
+    grid-area:poster1;
+    
+    margin-right:12vw;
+    margin-left:-2vw;
+}
+.minimasi{
+    grid-area:poster2;
+    margin-left:20.9vw;
+    
+    margin-top: 2vw;
+    
+}
+
+
+
+
+
+
+
+
+
+.size{
+   font-size:40px; 
+}
+
+
+
+.Der 
+{
+ color:darkgrey;
+    font-family: "Trade Gothic LT Std - Bd 2";
+
+font-weight:400;
+    position:absolute;
+    top: 20vw;
+    left:35vw;
+/*    animation: move 5s infinite ease-in 0s normal alternate;*/
+    animation: move 2s infinite alternate;
+    z-index: 1;
+}
+    
+/*.Der:hover{
+  transform:translate(100px, 0px);
+}*/
+
+
+@keyframes move {
+    from {
+        opacity   : 0.5;
+       transform:scale(1) translate(0,0);
+    }
+    to
+    {
+        opacity   : 1;
+         transform:scale(1.2) translate(5vw, 0);
+        z-index: 3;
+    }
+}
+
+
+.Film
+{
+ color:grey;
+    font-family: "Trade Gothic LT Std - Bd 2";
+font-size: 300px;
+font-weight: 400;
+    position:absolute;
+    top: 20vw;
+    left:50vw;
+    animation: move2 2s infinite 2s alternate;
+    z-index: 2;
+}
+
+@keyframes move2 {
+    from {
+        opacity   : 0.5;
+       transform:scale(1) translate(0,0);
+    }
+    to
+    {
+        opacity   : 1;
+         transform:scale(1.2) translate(-5vw, 0);
+        z-index: 3;
+    }
+}
+/*.Film:hover{
+  transform:translate(-100px, 0px);
+}*/
+
+
+
+.class_parent 
+{display:grid;
+    width:50vw;
+    height:100vh;
+ grid-template-rows: 1fr 4fr 1fr;
+grid-template-columns: 1fr 1fr 1fr; 
+grid-template-areas: ". a1 ."
+                    ". .  ."
+                    ". a2 .";
+    background-color:black ;
+    margin-left: 30vw;
+}
+
+.childtoptext
+{
+grid-area:a1;
+/*grid:2;*/
+}
+.bottomtext{
+    grid-area: a2;
+}
+.grandchildh4{
+
+color: #ff0000;
+font-family: "Trade Gothic LT Std - Bd 2";
+font-size: 31px;
+font-weight: 400;
+/*
+top: 99px;
+    left: 322px;
+    position: absolute;
+    margin: 0;
+    margin-top: 20px;
+*/
+}
+
+.grandchildh2
+{
+color: #ff0000;
+font-family: "Trade Gothic LT Std - Bd 2";
+font-size: 31px;
+font-weight: 400;
+/*
+left: 329px;
+top: 69px;
+position: absolute;
+margin: 0;
+*/
+}
+
+.grandchildh5
+{
+ color: #ff0000;
+font-family: "Trade Gothic LT Std - Bd 2";
+font-size: 31px;
+font-weight: 400;
+/*
+position:absolute;
+margin: 0;
+left:360px;
+top:1357px;   
+*/
+}
+
+.grandchildh6
+{
+ color: #ff0000;
+font-family: "Trade Gothic LT Std - Bd 2";
+font-size: 31px;
+font-weight: 400;
+/*
+position:absolute;
+margin:0px;
+left:360px;
+top:1419px;   
+*/
+}
+
+
+.major
+{
+  position:relative;
+    margin-left:100px;
+}
+
+.class_grandparent2
+{
+   position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+.text
+{
+  font-size:32px;
+font-weight: 500;
+}
+
+h1{
+    margin-bottom:-0.001vw;
+    font-size:50px;
+    font-weight:1000;
+    font-family:helvetica;
+}
+
+.text_small
+{
+    font-size:10px;
+    font-weight:350;
+    font-family:helvetica;
+}
+
+.text2{
+  font-size:9px;
+    font-weight:200;
+    font-family:helvetica; 
+    margin-top:3vw;
+    margin-left:13.5vw;
+}
+
+.text3{
+    font-size:9px;
+    font-weight:200;
+    font-family:helvetica;
+    margin-top:-7vw;
+    margin-left:8.5vw;
+}
+
+.text4{
+    font-size:9px;
+    font-weight:200;
+    font-family:helvetica;
+    margin-left:28.5vw;
+    margin-top:2vw;
+    
+}
+.text_left{
+margin-top:10vw;
+}
+
+.text1{
+    margin-left:28vw;
+    margin-top:14.25vw;
+    margin-bottom:-0.001vw;
+    font-size:50px;
+    font-weight:500;
+    font-family:helvetica;
+}
+
+
+
+.class_grandparent
+{display:grid;
+    width:50vw;
+    height:100vh;
+/*    grid-template-columns: 1fr 1fr;*/
+grid-template-areas: " parent1 parent2";
+    animation: animation1 2s 2 ;
+    
+} 
+    
+.class_parent_1 
+{ grid-area:parent1;
+background-color: green;
+display:grid;
+grid-template-areas: "child1"
+                     "child2"
+                     "child3"
+                    "child4"
+                     "child5"
+                     "child6"
+                     "child7"
+                     "child8";
+    width:25vw;
+    
+
+
+}
+
+.child_1 
+{ grid-area: child1;
+background-color: pink;
+position:relative;
+height:250px;
+
+}
+
+.child_1 h1
+{position:absolute;
+bottom:0;
+right:0;}
+
+.child_2
+{grid-area: child2;
+background-color: pink;
+position:relative;
+height:140px;
+}
+.child_3
+{grid-area: child3;
+background-color: pink;
+position:relative;
+height:90px;}
+.child_4
+{grid-area: child4;
+background-color: pink;
+    position:relative;
+height:75px;}
+.child_5
+{grid-area: child5;
+background-color: pink;
+    position:relative;
+height:5px;}
+.child_6
+{grid-area: child6;
+background-color: pink;
+    position:relative;
+height:7px;}
+
+.child_7
+{grid-area: child7;
+background-color: pink;
+    position:relative;
+    height:8px}
+.child_8
+{grid-area: child8;
+background-color: pink;
+    position:relative;}
+
+
+.class_parent_2 
+
+
+{grid-area:parent2;
+background-color: green;
+display:grid;
+grid-template-areas: 
+                    "sister1"
+                     "sister2"
+                     "sister3"
+                     "sister4"
+                    "sister5";
+        width:25vw;
+                   
+
+
+}
+
+
+.sister_1 
+{ grid-area: sister1;
+background-color: black;
+position:relative;
+    top: 250px;
+    height:22px;
+}
+
+.sister_2
+{grid-area: sister2;
+background-color: pink;
+position:relative;
+top:300px;
+    height:15px;
+}
+
+.sister_2 h6
+{position:absolute;
+bottom:0;
+    right:0;
+margin-left:-12vw;}
+
+
+.sister_3
+{ grid-area: sister3;
+background-color: pink;
+position:relative;
+top: 230px;
+    height:55px;}
+
+.sister_4
+{grid-area: sister4;
+background-color: pink;
+position:relative;
+top: 158px;
+    height:95px;}
+
+.sister_5
+{ grid-area: sister5;
+background-color: pink;
+position:relative;
+top: 105px;
+    height:100px;}
+
+
+@keyframes animation1{
+    0%{
+        transform:scale(0) rotate(0deg);
+    }
+    100%{
+        transform:scale(1) rotate(360deg);
+
+    }
+}

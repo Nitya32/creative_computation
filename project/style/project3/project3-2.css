@@ -1,0 +1,248 @@
+
+/*
+@keyframes scale{
+    0%{ height:50vh; width:25vw;
+    }
+    
+    100%
+    {
+    height: 100vh;
+width: 50vw;
+    }
+}
+
+.class_grandparent
+{
+ animation-name: scale;
+animation-duration: infinite;
+height: 100vh;
+width: 50vw;
+*/
+/*}*/
+
+.major
+{
+  position:relative;
+    margin-left:100px;
+}
+
+.class_grandparent2
+{
+   position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+.text
+{
+  font-size:32px;
+font-weight: 500;
+}
+
+h1{
+    margin-bottom:-0.001vw;
+    font-size:50px;
+    font-weight:1000;
+    font-family:helvetica;
+}
+
+.text_small
+{
+    font-size:10px;
+    font-weight:350;
+    font-family:helvetica;
+}
+
+.text2{
+  font-size:9px;
+    font-weight:200;
+    font-family:helvetica; 
+    margin-top:4vw;
+    margin-left:13.5vw;
+}
+
+.text3{
+    font-size:9px;
+    font-weight:200;
+    font-family:helvetica;
+    margin-top:-7vw;
+    margin-left:8.5vw;
+}
+
+.text4{
+    font-size:9px;
+    font-weight:200;
+    font-family:helvetica;
+    margin-left:28.5vw;
+    margin-top:2vw;
+    
+}
+.text_left{
+margin-top:10vw;
+}
+
+.text1{
+    margin-left:28vw;
+    margin-top:14.25vw;
+    margin-bottom:-0.001vw;
+    font-size:50px;
+    font-weight:500;
+    font-family:helvetica;
+}
+
+
+
+.class_grandparent
+{display:grid;
+    width:50vw;
+    height:100vh;
+/*    grid-template-columns: 1fr 1fr;*/
+grid-template-areas: " parent1 parent2";
+    animation: animation1 2s 1 ;
+    
+} 
+    
+.class_parent_1 
+{ grid-area:parent1;
+background-color: green;
+display:grid;
+grid-template-areas: "child1"
+                     "child2"
+                     "child3"
+                    "child4"
+                     "child5"
+                     "child6"
+                     "child7"
+                     "child8";
+    width:25vw;
+    
+
+
+}
+
+.child_1 
+{ grid-area: child1;
+background-color: pink;
+position:relative;
+height:250px;
+
+}
+
+.child_1 h1
+{position:absolute;
+bottom:0;
+right:0;}
+
+.child_2
+{grid-area: child2;
+background-color: pink;
+position:relative;
+height:140px;
+}
+.child_3
+{grid-area: child3;
+background-color: pink;
+position:relative;
+height:90px;}
+.child_4
+{grid-area: child4;
+background-color: pink;
+    position:relative;
+height:75px;}
+.child_5
+{grid-area: child5;
+background-color: pink;
+    position:relative;
+height:5px;}
+.child_6
+{grid-area: child6;
+background-color: pink;
+    position:relative;
+height:7px;}
+
+.child_7
+{grid-area: child7;
+background-color: pink;
+    position:relative;
+    height:8px}
+.child_8
+{grid-area: child8;
+background-color: pink;
+    position:relative;}
+
+
+.class_parent_2 
+
+
+{grid-area:parent2;
+background-color: green;
+display:grid;
+grid-template-areas: 
+                    "sister1"
+                     "sister2"
+                     "sister3"
+                     "sister4"
+                    "sister5";
+        width:25vw;
+                   
+
+
+}
+
+.sister_1 
+{ grid-area: sister1;
+background-color: black;
+position:relative;
+    top: 250px;
+    height:22px;
+}
+
+.sister_2
+{grid-area: sister2;
+background-color: pink;
+position:relative;
+top:300px;
+    height:15px;
+}
+
+.sister_2 h6
+{position:absolute;
+bottom:0;
+    right:0;
+margin-left:-12vw;}
+
+
+.sister_3
+{ grid-area: sister3;
+background-color: pink;
+position:relative;
+top: 230px;
+    height:55px;}
+
+.sister_4
+{grid-area: sister4;
+background-color: pink;
+position:relative;
+top: 158px;
+    height:95px;}
+
+.sister_5
+{ grid-area: sister5;
+background-color: pink;
+position:relative;
+top: 105px;
+    height:100px;}
+
+
+@keyframes animation1{
+    0%{
+        transform:scale(0) rotate(0deg);
+    }
+    100%{
+        transform:scale(1) rotate(360deg);
+
+    }
+}
+
+
