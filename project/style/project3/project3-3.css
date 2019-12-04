@@ -1,3 +1,7 @@
+html{
+    background-color:lightgray;
+}
+
 .nani{
     display:grid;
     grid-template-areas: "poster1"
