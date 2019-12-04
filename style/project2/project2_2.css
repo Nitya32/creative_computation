@@ -1,0 +1,458 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.class_grandparent
+{display:grid;
+    width:100vw;
+    height:110vh;
+/*    grid-template-columns: 1fr 1fr;*/
+grid-template-areas: " parent1 parent2";
+    grid-gap: 1vw;
+    background:coral;
+/*    border: 4px solid red;*/
+/*    margin:auto;*/
+   
+    
+} 
+.class_parent1
+{background-color:lightgoldenrodyellow;
+grid-area: parent1;
+width:45vw;
+height:55vw;
+margin-top:3vw;
+/*display:grid;*/
+/*
+grid-template-areas:" child1"
+                    " child2";
+*/
+display:inline-block;
+vertical-align: top;
+margin-left:4vw;}
+
+#face
+{
+width:500px;
+height:500px;
+border-radius:50%;
+background-color:pink;
+border-radius:50%;
+    margin-left:4vw;
+    margin-top:6vw;
+}
+#face:hover
+{
+width:500px;
+height:500px;
+border-radius:50%;
+background-color:lightcyan;
+border-radius:50%;
+}
+.eye
+{
+width: 100px;
+height: 100px;
+background: white;
+border-radius: 50%;
+display: inline-block;
+}
+
+#left_eye
+{
+margin-left:150px; margin-top: 0px;
+}
+.pupil
+{width: 50px;
+height: 50px;
+background: orange;
+border-radius: 50%
+}
+
+#left_eye:hover
+{
+margin-left:150px;
+margin-top: 60px;
+}
+
+
+#left_pupil
+{
+margin-left:150px; margin-top: 0px;
+}
+
+#right_eye
+{
+margin-left:50px;
+}
+
+#right_pupil
+{
+margin-left:240px;
+}
+
+
+
+#mouth
+{width: 100px;
+height: 100px;
+background: red;
+border-radius: 50%;
+margin-left:150px;
+margin-top: 40px;
+}
+#mouth:hover
+ {
+width: 200px;
+height: 100px;
+background: red;
+border-radius: 100px / 50px;
+transition: all 1s;
+}
+
+#nose
+{
+width: 0;
+height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-bottom: 100px solid lightgoldenrodyellow;
+    margin-left:150px;
+
+}
+  
+/*
+width:500px;
+height:500px;
+border-radius:50%;
+background-color:lightcyan;
+border-radius:50%;
+}
+*/
+.eye
+{
+width: 100px;
+height: 100px;
+background: white;
+border-radius: 50%;
+display: inline-block;
+}
+
+#left_eye
+{
+margin-left:150px; margin-top: 0px;
+}
+.pupil
+{width: 50px;
+height: 50px;
+background: orange;
+border-radius: 50%
+}
+
+/*
+#left_eye:hover
+{
+margin-left:150px;
+margin-top: 60px;
+}
+*/
+
+
+#left_pupil
+{
+margin-left:150px; margin-top: 0px;
+}
+
+#right_eye
+{
+margin-left:50px;
+}
+
+#right_pupil
+{
+margin-left:240px;
+}
+
+
+
+#mouth
+{width: 100px;
+height: 100px;
+background: red;
+border-radius: 50%;
+margin-left:150px;
+margin-top: 40px;
+}
+#mouth:hover
+ {
+width: 200px;
+height: 100px;
+background: red;
+border-radius: 100px / 50px;
+transition: all 1s;
+}
+
+#nose
+{
+width: 0;
+height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-bottom: 100px solid lightgoldenrodyellow;
+    margin-left:150px;
+
+}
+
+
+.rectangle
+{
+    margin-top:18vw;
+    border: 3px solid lightgoldenrodyellow ;
+    display:flex;
+    width:44.5vw;
+    height:9vw;
+    margin-left:-4vw;
+}
+
+.rectangle_text
+{
+    flex:1;
+    font-size:18px;
+    font-family: monospace;
+    background-color: white;
+    
+}
+  
+
+
+
+
+
+
+
+.class_parent2
+{grid-area: parent2;
+background-color:pink;
+width:45vw;
+display:inline-block;
+    vertical-align: top;
+height:55vw;
+margin-top:3vw;}
+/*
+display:grid;
+grid-template-areas:" child3"
+                    " child4";}
+*/
+
+#face2
+{
+width:500px;
+height:500px;
+border-radius:50%;
+background-color:lightgoldenrodyellow;
+border-radius:50%;
+    margin-left:4vw;
+    margin-top:6vw;
+}
+
+/*
+#face2:hover
+{
+width:500px;
+height:500px;
+border-radius:50%;
+background-color:lightcyan;
+border-radius:50%;
+}
+*/
+.eye2
+{
+
+display: inline-block;
+width: 0;
+height: 0;
+border-left: 80px solid transparent;
+border-right: 80px solid transparent;
+border-bottom: 150px solid pink;
+    margin-left:150px;
+}
+
+#left_eye2
+{
+margin-left:80px; margin-top: 70px;
+}
+.pupil2
+{width: 50px;
+height: 50px;
+background: darkorange;
+margin-top:80px;
+margin-left:-25px;
+/*border-radius: 50%*/
+    
+    
+}
+
+/*
+#left_eye2:hover
+{
+margin-left:150px;
+margin-top: 60px;
+}
+*/
+
+
+#left_pupil2
+{
+margin-left:150px; margin-top: 30px;
+}
+
+#right_eye2
+{
+margin-left:0px;
+}
+
+#right_pupil2
+{
+margin-left:220px;
+
+}
+
+
+
+
+
+#mouth2
+{width: 200px;
+height: 100px;
+background: orange;
+/*border-radius: 50%;*/
+margin-left:140px;
+margin-top: 0px;
+    display:flex;
+}
+
+#mouth_2_1
+{
+  width: 90px;
+height: 80px;
+background: pink;
+/*border-radius: 50%;*/
+margin-left:10px;
+margin-top: 10px;
+margin-right:10px;    
+flex:1;
+
+/*margin:center;*/
+}
+
+#mouth_2_2
+{
+  width: 160px;
+height: 60px;
+background: orange;
+/*border-radius: 50%;*/
+margin-left:10px;
+margin-top: 10px;
+margin-right:20px; 
+margin-bottom:40px;
+flex:1;
+
+/*margin:center;*/
+}
+
+#sad {
+  width: 160px;
+margin-top:-6.5vw;
+margin-left:0.5vw;
+  height: 100px;  
+  border: solid 5px red;
+  border-color: red transparent transparent transparent;
+  border-radius: 50%/100px 100px 0 0;
+}
+
+#sad:hover{
+    border-color:pink transparent transparent transparent;
+    
+}
+
+#sad:active{
+  width: 160px;
+  margin-top:-11vw;
+  margin-left:0.5vw;
+  height: 100px;
+  border: solid 5px red;
+  border-color: transparent transparent red transparent;
+  border-radius: 0 0 100px 50%/60px;
+  transition: all 1s;
+}
+/*
+#mouth2:hover
+ {
+width: 200px;
+height: 100px;
+background: red;
+border-radius: 100px / 50px;
+transition: all 1s;
+}
+*/
+
+#nose2
+{
+/*
+width: 0;
+height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-bottom: 100px solid blue;
+    margin-left:190px;
+*/
+width: 100px;
+height: 80px;
+background: red;
+margin-top:-5px;
+
+margin-left:190px;}
+
+/*
+#cheek
+{
+width:80px;
+height:80px;
+border-radius:50%;
+border: 4px dotted red;
+margin-left:5vw;
+margin-bottom:10vw;
+top:0;
+}
+
+#cheek2
+{
+width:80px;
+height:80px;
+border-radius:50%;
+border: 4px dotted red;
+margin-left:5vw;
+margin-bottom:10vw;
+top:0;
+}
+*/
+
+.rectangle2
+{
+    margin-top:7vw;
+    border: 3px solid pink;
+    display:flex;
+    width:44.5vw;
+    height:9vw;
+}
+
+.rectangle_text2
+{
+    flex:1;
+    font-size:18px;
+    font-family: monospace;
+    background-color: white;
+    
+}
+  
+  

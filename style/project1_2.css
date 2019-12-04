@@ -1,0 +1,102 @@
+.parent{
+    display:grid;
+    background-color:antiquewhite;
+    width:75vw;
+    margin-right:20vw;
+    margin-left:12vw;
+}
+
+.h1{
+    font-size:30;
+    font-family:serif;
+    color:darksalmon;
+    text-align:center;
+}
+
+.h2
+{
+  font-size:18;
+  font-family:serif;
+  color:black;
+  text-align:center;
+ background-color: bisque;
+}  
+
+.h3{
+    font-size:25;
+    font-family:serif;
+    color:darksalmon;
+    text-align:center;  
+}
+
+.bullet{
+    font-size:15;
+  font-family:serif;
+  color:black;
+  text-align:center;
+/*border: 3px solid darksalmon;*/
+    }
+
+.pic1{
+    background-image: url(../project1/semanticlyricimg2.png);
+    height:700px;
+    width:1050px;
+    margin-left:1vw;
+    margin-top:1vw;
+    margin-bottom:1vw;
+}
+
+.pic2{
+    background-image: url(../project1/semanticlyricimg3.png);
+    height:700px;
+    width:1050px;
+    margin-left:1vw;
+    margin-top:1vw;
+    margin-bottom:1vw;
+}
+
+
+.pic3{
+    background-image: url(../project1/semanticlyricimg4.png);
+    height:700px;
+    width:1050px;
+    margin-left:1vw;
+    margin-top:1vw;
+    margin-bottom:1vw;
+}
+
+
+
+
+.pullqoute{
+    margin-top:3vw;
+     margin-bottom:3vw;
+    font-size:20;
+  font-family:serif;
+  color:darksalmon;
+  text-align:center;
+
+}
+
+.stylelink{
+    font-size:20;
+  font-family:serif;
+  color:black;
+  text-align:center;
+background-color:bisque;
+    width:20vw;
+    margin-left:30vw;
+    margin-bottom:1vw;
+}
+
+.stylelink:hover{
+    color:darksalmon;
+    background-color:darksalmon;
+    width:20vw;
+    margin-left:30vw;
+   margin-bottom:1vw;
+}
+
+.grandparent{
+    background-color:darksalmon;
+}

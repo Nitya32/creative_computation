@@ -1,0 +1,666 @@
+.grandparent{
+    position:relative;
+}
+
+.plastic{
+    position:absolute;
+}
+/* 
+    display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+*/
+
+/*here*/
+.image_one{
+    height:10vw;
+    width:10vw;
+    margin-left:60vw;
+    margin-top:32vw;
+    z-index:100;
+opacity:0;
+}
+.plastic_show{
+    opacity:1;
+    transition: opacity .25s;
+}
+.image_two{
+    height:10vw;
+    width:10vw;
+    margin-left:68vw;
+    margin-top:0.25vw;
+    opacity:0;
+/*   display:none;*/
+}
+
+.image_three{
+    height:10vw;
+    width:10vw;
+    margin-left:70vw;
+    margin-top:1vw;
+    z-index:100;
+    opacity:0;
+/*display:none;*/
+}
+
+.image_four{
+    height:10vw;
+    width:10vw;
+    margin-left:67vw;
+    margin-top:1vw;
+    z-index:100;
+    
+    opacity:0;
+    
+/*display:none;*/
+}
+
+.image_five{
+    height:10vw;
+    width:10vw;
+    margin-left:58vw;
+    margin-top:0.025vw;
+    z-index:100;
+    opacity:0;
+    
+    
+/*display:none;*/
+}
+
+.image_six{
+    height:10vw;
+    width:10vw;
+    margin-left:45vw;
+    margin-top:-6.5vw;
+    z-index:100;
+    opacity:0;
+    
+    
+/*display:none;*/
+}
+
+.image_seven{
+    height:10vw;
+    width:10vw;
+    margin-left:33vw;
+    margin-top:-12vw;
+    z-index:100;
+    opacity:0;
+    
+    
+    
+/*display:none;*/
+}
+
+
+
+.image_eight{
+    height:10vw;
+    width:10vw;
+    margin-left:25vw;
+    margin-top:-21vw;
+    opacity:0;
+    
+    
+    
+    
+/*   display:none;*/
+}
+
+.image_nine{
+    height:10vw;
+    width:10vw;
+    margin-left:22vw;
+    margin-top:-21vw;
+    opacity:0;
+    
+    
+    
+    
+    
+/*   display:none;*/
+}
+
+.image_ten{
+    height:10vw;
+    width:10vw;
+    margin-left:25vw;
+    margin-top:-21vw;
+    opacity:0;
+    
+    
+    
+    
+    
+    
+/*   display:none;*/
+}
+
+.image_eleven{
+    height:10vw;
+    width:10vw;
+    margin-left:32vw;
+    margin-top:-20vw;
+    opacity:0;
+    
+    
+    
+    
+    
+    
+    
+/*   display:none;*/
+}
+
+.image_twelve{
+    height:10vw;
+    width:10vw;
+    margin-left:45vw;
+    margin-top:-15vw;
+    opacity:0;
+    
+    
+    
+    
+    
+    
+    
+    
+/*   display:none;*/
+}
+.gadhi{
+    display:grid;
+  position:absolute;
+/*
+  width:100%;
+  grid-template-columns: 1fr 1fr;
+  top:0;
+  left:0;
+*/
+}
+
+.numbers{
+font-size:30px;
+font-family:sans-serif;
+color:black;
+}
+/*here*/
+
+
+.one
+{
+  margin-left:57vw;  
+     margin-top:44vw; 
+    z-index:10;
+}
+
+.one:hover
+{
+color:red;
+cursor:pointer;
+}
+
+.eleven
+{
+  margin-left:44vw;  
+     margin-top:44vw; 
+    z-index:10;
+}
+
+.eleven:hover
+{
+color:red;
+cursor:pointer;
+}
+.two
+{
+  margin-left:62vw;  
+     margin-top:49vw; 
+    z-index:10;
+}
+
+.two:hover
+{
+color:red;
+cursor:pointer;
+}
+
+.ten
+{
+  margin-left:38vw;  
+     margin-top:49vw; 
+    z-index:10;
+}
+
+.ten:hover
+{
+color:red;
+cursor:pointer;
+}
+
+.three
+{
+  margin-left:65vw;  
+     margin-top:55vw; 
+    z-index:10;
+}
+
+.three:hover
+{
+color:red;
+cursor:pointer;
+}
+
+.nine
+{
+  margin-left:36vw;  
+     margin-top:55vw; 
+    z-index:10;
+}
+
+.nine:hover
+{
+color:red;
+cursor:pointer;
+}
+
+.four
+{
+  margin-left:64vw;  
+     margin-top:62vw; 
+    z-index:10;
+}
+
+.four:hover
+{
+color:red;
+cursor:pointer;
+}
+
+.eight
+{
+  margin-left:37vw;  
+     margin-top:62vw; 
+    z-index:10;
+}
+
+.eight:hover
+{
+color:red;
+cursor:pointer;
+}
+
+.five
+{
+  margin-left:58vw;  
+     margin-top:69vw; 
+    z-index:10;
+}
+
+.five:hover
+{
+color:red;
+cursor:pointer;
+}
+
+
+.seven
+{
+  margin-left:43vw;  
+     margin-top:69vw; 
+    z-index:10;
+}
+
+.seven:hover
+{
+color:red;
+cursor:pointer;
+}
+.six
+{
+  margin-left:51vw;  
+     margin-top:71vw; 
+    z-index:10;
+}
+
+.six:hover
+{
+color:red;
+cursor:pointer;
+}
+
+.twelve
+{
+  margin-left:50vw;  
+     margin-top:43vw; 
+    z-index:10;
+}
+
+
+.twelve:hover
+{
+color:red;
+cursor:pointer;
+}
+
+
+
+
+
+
+body {
+  margin: 0;
+}
+
+
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+
+
+.demo-container.clocks {
+  background: red;
+  padding: 0;
+  width: 100%;
+  height: 150vh;
+  margin: 0;
+  overflow: hidden;
+    
+}
+
+.clock {
+  border-radius: 50%;
+  background: radial-gradient(#000, #000 0.1em, #fff 0.1em, #fff), #fff;
+  display: inline-block;
+  margin: 1%;
+  padding-bottom: 31%;
+  position: relative;
+  top: 50%;
+  width: 31%;
+  opacity: 0;
+  -webkit-transform: translateY(-40%);
+          transform: translateY(-40%);
+}
+
+.clock.show {
+  opacity: 1;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  transition: all 2.5s 0.5s cubic-bezier(0.12, 1.03, 0.34, 1);
+}
+
+.clock::after {
+  background: red;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 4%;
+  height: 4%;
+  z-index: 10;
+}
+
+.minutes-container, .hours-container, .seconds-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hours-container {
+  -webkit-animation: rotate 43200s infinite linear;
+          animation: rotate 43200s infinite linear;
+}
+
+.linear .minutes-container {
+  -webkit-animation: rotate 3600s infinite linear;
+          animation: rotate 3600s infinite linear;
+}
+.linear .seconds {
+  -webkit-animation: rotate 60s infinite forwards linear;
+          animation: rotate 60s infinite forwards linear;
+}
+
+.seconds:hover {
+    animation-play-state: paused;
+}
+
+.steps .minutes-container {
+  -webkit-animation: rotate 3600s infinite steps(60);
+          animation: rotate 3600s infinite steps(60);
+}
+.steps .seconds-container {
+  -webkit-animation: rotate 60s infinite steps(60);
+          animation: rotate 60s infinite steps(60);
+}
+
+.local.steps .minutes-container {
+  -webkit-animation: none;
+          animation: none;
+}
+
+.bounce .minutes-container {
+  transition: -webkit-transform 0.3s cubic-bezier(0.4, 2.08, 0.55, 0.44);
+  transition: transform 0.3s cubic-bezier(0.4, 2.08, 0.55, 0.44);
+  transition: transform 0.3s cubic-bezier(0.4, 2.08, 0.55, 0.44), -webkit-transform 0.3s cubic-bezier(0.4, 2.08, 0.55, 0.44);
+}
+.bounce .seconds-container {
+  transition: -webkit-transform 0.2s cubic-bezier(0.4, 2.08, 0.55, 0.44);
+  transition: transform 0.2s cubic-bezier(0.4, 2.08, 0.55, 0.44);
+  transition: transform 0.2s cubic-bezier(0.4, 2.08, 0.55, 0.44), -webkit-transform 0.2s cubic-bezier(0.4, 2.08, 0.55, 0.44);
+}
+
+.hours {
+  background: #000;
+  width: 3.5%;
+  height: 40%;
+  position: absolute;
+  left: 48.25%;
+  top: 22%;
+  -webkit-transform-origin: 50% 71%;
+          transform-origin: 50% 71%;
+}
+
+.minutes {
+  background: #000;
+  width: 3.5%;
+  height: 55%;
+  position: absolute;
+  left: 48.25%;
+  top: 7%;
+  -webkit-transform-origin: 50% 78.5%;
+          transform-origin: 50% 78.5%;
+}
+
+.seconds {
+  background: red;
+  width: 1.5%;
+  height: 42%;
+  position: absolute;
+  left: 49.25%;
+  top: 20%;
+  -webkit-transform-origin: 50% 71%;
+          transform-origin: 50% 71%;
+  z-index: 8;
+}
+
+.label {
+  background: #fff;
+  border-radius: 0.25em;
+  color: #000;
+  font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+/*  text-transform: uppercase;*/
+  padding: 0.5em 0.75em 0.25em;
+  position: absolute;
+  top: -4em;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+     margin-top:-15vw;
+    width:100vw;
+    text-align:center;
+}
+
+
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+      
+     
+  }
+}
+.clock.station {
+  background: #fff url(//cssanimation.rocks/assets/images/posts/clocks/station_clock.svg) no-repeat center;
+  background-size: 95%;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.2) inset;
+}
+
+.clock.station .seconds::before {
+  background: red;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  top: -9%;
+  left: -200%;
+  height: 18%;
+  width: 500%;
+}
+
+.clock.ios7 {
+  background: #fff url(clock.png) no-repeat center;
+  background-size: 88%;
+}
+
+.clock.ios7:before {
+  background: black;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 6%;
+  height: 6%;
+  z-index: 0;
+}
+
+.clock.ios7:after {
+  width: 2%;
+  height: 2%;
+}
+
+.clock.ios7 .seconds {
+  border-radius: 200%/10%;
+  height: 30%;
+  left: 49.5%;
+  top: 20%;
+  width: 1%;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+}
+
+.clock.ios7 .minutes {
+  border-radius: 150%/10%;
+  width: 2%;
+  height: 35%;
+  left: 49%;
+  top: 15%;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+}
+
+.clock.ios7 .hours {
+  border-radius: 85%/10%;
+  width: 2%;
+  height: 20%;
+  left: 49%;
+  top: 30%;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+}
+
+.clock.simple {
+  background: #fff url(clock.png) no-repeat center;
+  background-size: 88%;
+}
+
+.clock.simple:after {
+  background-color: #000;
+  width: 5%;
+  height: 5%;
+}
+
+.clock.simple .seconds {
+  background-color: #000;
+  height: 45%;
+  left: 49.5%;
+  top: 14%;
+  width: 1%;
+  -webkit-transform-origin: 50% 80%;
+          transform-origin: 50% 80%;
+}
+
+.clock.simple .minutes {
+  width: 2%;
+  height: 40%;
+  left: 49%;
+  top: 10%;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+}
+
+.clock.simple .hours {
+  width: 2.5%;
+  height: 20%;
+  left: 48.75%;
+  top: 30%;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+}
+
+.hours.angled {
+  -webkit-transform: rotateZ(-40deg);
+          transform: rotateZ(-40deg);
+}
+
+.minutes.angled {
+  -webkit-transform: rotateZ(40deg);
+          transform: rotateZ(40deg);
+}
+
+.image_18 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    top: 25px;
+    transform: translateX(-50%);
+    background-image: url(clock.png);
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
