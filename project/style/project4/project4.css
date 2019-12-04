@@ -17,15 +17,19 @@
     margin-left:60vw;
     margin-top:32vw;
     z-index:100;
-display:none;
+opacity:0;
 }
-
+.plastic_show{
+    opacity:1;
+    transition: opacity .25s;
+}
 .image_two{
     height:10vw;
     width:10vw;
     margin-left:68vw;
     margin-top:0.25vw;
-   display:none;
+    opacity:0;
+/*   display:none;*/
 }
 
 .image_three{
@@ -34,7 +38,8 @@ display:none;
     margin-left:70vw;
     margin-top:1vw;
     z-index:100;
-display:none;
+    opacity:0;
+/*display:none;*/
 }
 
 .image_four{
@@ -43,7 +48,10 @@ display:none;
     margin-left:67vw;
     margin-top:1vw;
     z-index:100;
-display:none;
+    
+    opacity:0;
+    
+/*display:none;*/
 }
 
 .image_five{
@@ -52,7 +60,10 @@ display:none;
     margin-left:58vw;
     margin-top:0.025vw;
     z-index:100;
-display:none;
+    opacity:0;
+    
+    
+/*display:none;*/
 }
 
 .image_six{
@@ -61,7 +72,10 @@ display:none;
     margin-left:45vw;
     margin-top:-6.5vw;
     z-index:100;
-display:none;
+    opacity:0;
+    
+    
+/*display:none;*/
 }
 
 .image_seven{
@@ -70,7 +84,11 @@ display:none;
     margin-left:33vw;
     margin-top:-12vw;
     z-index:100;
-display:none;
+    opacity:0;
+    
+    
+    
+/*display:none;*/
 }
 
 
@@ -80,7 +98,12 @@ display:none;
     width:10vw;
     margin-left:25vw;
     margin-top:-21vw;
-   display:none;
+    opacity:0;
+    
+    
+    
+    
+/*   display:none;*/
 }
 
 .image_nine{
@@ -88,7 +111,13 @@ display:none;
     width:10vw;
     margin-left:22vw;
     margin-top:-21vw;
-   display:none;
+    opacity:0;
+    
+    
+    
+    
+    
+/*   display:none;*/
 }
 
 .image_ten{
@@ -96,7 +125,14 @@ display:none;
     width:10vw;
     margin-left:25vw;
     margin-top:-21vw;
-   display:none;
+    opacity:0;
+    
+    
+    
+    
+    
+    
+/*   display:none;*/
 }
 
 .image_eleven{
@@ -104,7 +140,15 @@ display:none;
     width:10vw;
     margin-left:32vw;
     margin-top:-20vw;
-   display:none;
+    opacity:0;
+    
+    
+    
+    
+    
+    
+    
+/*   display:none;*/
 }
 
 .image_twelve{
@@ -112,7 +156,16 @@ display:none;
     width:10vw;
     margin-left:45vw;
     margin-top:-15vw;
-   display:none;
+    opacity:0;
+    
+    
+    
+    
+    
+    
+    
+    
+/*   display:none;*/
 }
 .gadhi{
     display:grid;
