@@ -180,94 +180,10 @@ function showImages() {
 
 
 
-$(".one").mouseover(function(){
-  $(".image_one").toggleClass("plastic_show");
-});
 
-$(".one").mouseout(function(){
-  $(".image_one").toggleClass("plastic_show");
-});
 
-$(".two").mouseover(function(){
-    $(".image_two").toggleClass("plastic_show");
-});
-
-$(".two").mouseout(function(){
-  $(".image_two").toggleClass("plastic_show");
-});
-
-$(".three").mouseover(function(){
-  $(".image_two").toggleClass("plastic_show");
-});
-
-$(".three").mouseout(function(){
-  $(".image_two").toggleClass("plastic_show");
-});
-
-$(".four").mouseover(function(){
- $(".image_two").toggleClass("plastic_show");
-});
-
-$(".four").mouseout(function(){
-  $(".image_two").toggleClass("plastic_show");
-});
-
-$(".five").mouseover(function(){
-$(".image_two").toggleClass("plastic_show");
-});
-
-$(".five").mouseout(function(){
-  $(".image_two").toggleClass("plastic_show");
-});
-
-$(".six").mouseover(function(){
-  $(".image_two").toggleClass("plastic_show");
-});
-
-$(".six").mouseout(function(){
-  $(".image_two").toggleClass("plastic_show");
-});
-
-$(".seven").mouseover(function(){
-$(".image_two").toggleClass("plastic_show");
-});
-
-$(".seven").mouseout(function(){
-  $(".image_two").toggleClass("plastic_show");
-});
-
-$(".eight").mouseover(function(){
-  $(".image_two").toggleClass("plastic_show");
-});$(".image_two").toggleClass("plastic_show");
-$(".eight").mouseout(function(){
- $(".image_two").toggleClass("plastic_show");
-});
-
-$(".nine").mouseover(function(){
-  $(".image_two").toggleClass("plastic_show");
-});
-$(".nine").mouseout(function(){
-  $(".image_two").toggleClass("plastic_show");
-});
-
-$(".ten").mouseover(function(){
-  $(".image_two").toggleClass("plastic_show");
-});
-$(".ten").mouseout(function(){
-  $(".image_two").toggleClass("plastic_show");
-});
-
-$(".eleven").mouseover(function(){
- $(".image_two").toggleClass("plastic_show");
-});
-$(".eleven").mouseout(function(){
-$(".image_two").toggleClass("plastic_show");
-});
-
-$(".twelve").mouseover(function(){
- $(".image_two").toggleClass("plastic_show");
-});
-$(".twelve").mouseout(function(){
-  $(".image_two").toggleClass("plastic_show");
-});
-
+$(".numbers").on("mouseover mouseout", function(event){
+    var targetNumber = event.target.classList[0];
+    var targetImage = ".image_" + targetNumber;
+    $(targetImage).toggleClass("plastic_show");
+})

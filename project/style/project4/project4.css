@@ -5,6 +5,11 @@
 .plastic{
     position:absolute;
 }
+
+.plastic div {
+    transition: opacity .25s;
+}
+
 /* 
     display:grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -19,10 +24,11 @@
     z-index:100;
 opacity:0;
 }
-.plastic_show{
-    opacity:1;
-    transition: opacity .25s;
+
+.plastic div.plastic_show{
+    opacity: 1;
 }
+
 .image_two{
     height:10vw;
     width:10vw;
@@ -167,6 +173,7 @@ opacity:0;
     
 /*   display:none;*/
 }
+
 .gadhi{
     display:grid;
   position:absolute;
