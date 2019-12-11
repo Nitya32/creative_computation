@@ -98,6 +98,7 @@ section,h1 {
 .bounce {
   animation-name: bounce;
 }
+/*
 .grid
  {
   margin-top:3vw;
@@ -110,7 +111,9 @@ background-color:plum;
 }
 
 .grid-item{
+*/
 /*  border:thin gray solid;*/
+/*
     box-shadow: 5px 5px gray;
   background-color:antiquewhite;
   padding:10px;
@@ -120,7 +123,9 @@ background-color:plum;
     align-items: center;
     cursor:pointer;
 }
+*/
 
+/*
 img {
     width: 100%;
     opacity: 1;
@@ -158,7 +163,9 @@ img {
 .blue:hover {
     background-color: plum;
 }
+*/
 
+/*
 .green {
     background-color: lightgreen;
 }
@@ -190,14 +197,16 @@ img {
 .lightcyan:hover {
     background-color: plum;
 }
+*/
 
 
 
 
+/*
 .inner-item {
     width: 100%;
     height: 100%;
-/*    background-color: crimson;*/
+    background-color: crimson;
     transition: all .25s ease;
     display: flex;
     justify-items: center;
@@ -217,5 +226,323 @@ img {
     vertical-align: middle;
     font-size: 3.5vw;
     font-family: Helvetica, sans-serif;
+}
+*/
+
+
+*{margin:0;padding:0;font-size:2vw;}
+body{padding:1vw 8vw; position:relative;}
+
+/*
+.parallax{
+background-color:white;
+border:black solid 2px;
+border-radius:2vw;
+width:60vw;
+height:100vw;
+margin-left:15vw;
+z-index:500;
+position:relative;
+top:13vw;
+}
+*/
+
+h1{
+font-family:Playfair Display;
+color:black;
+font-size:10vw;
+position:fixed;
+z-index:100;
+    left:0vw;
+
+}
+
+h2{
+font-family:Playfair Display;
+color:black;
+font-size:4vw;
+position:fixed;
+z-index:100;
+bottom:5vw;
+left:10vw;
+}
+
+.hamburger{
+border-color:black;
+background-color: white;
+border: 2px solid;
+border-radius:50%;
+height:2vw;
+width:2vw;
+position:fixed;
+right:2vw;
+top:2vw;
+/*z-index:1000;*/
+
+}
+
+.hamburger:hover{
+background-color:black;
+}
+
+.header1{
+margin-left:76vw;
+display:none;
+transition:all 1s;
+}
+
+.header2{
+margin-left:65vw;
+display:none;
+transition:all 1s;
+
+}
+/*
+.header3{
+margin-left:54vw;
+}
+.header4{
+margin-left:43vw;
+}
+.header5{
+margin-left:32vw;
+}
+.header6{
+margin-left:21vw;
+}
+*/
+.header{
+background-color:black;
+height:2vw;
+width:10vw;
+border-radius:3vw;
+position:fixed;
+z-index:2000;
+margin-top:1vw;
+}
+
+.header_text{
+font-family:roboto;
+font-size:2vw;
+line-height:.5em;
+padding-top:.75vw;
+    
+color:white;
+text-align:center;
+    
+}
+
+.greatgrand{
+position:absolute;
+}
+.grandparent{
+position:relative;
+z-index:10;
+top:10vw;
+}
+.parent1
+{
+display:grid;
+/*height:70vh;*/
+width:80vw;
+
+grid-template-areas: "y1 r2 b3"
+                     "b1 y2 b4"
+                     "c1 c2 c3";
+/*margin-top:2vw;*/
+grid-gap:1vw;
+position:relative;
+}
+
+.circle1
+{
+grid-area:y1;
+
+border-radius:50%;
+height:25vw;
+width:25vw;
+position:relative;
+}
+
+.circle:hover .red {
+  transform: scale(1);
+	opacity: 1;
+    
+}
+
+.circle-img1{
+  background-image: url(../imgs/trail1-2.png);  
+}
+
+.circle-img2{
+  background-image: url(../imgs/trail1-2.png);  
+}
+
+.circle-img3{
+  background-image: url(../imgs/trail1-2.png);  
+}
+.circle-img4{
+  background-image: url(../imgs/trail1-2.png);  
+}
+.circle-img5{
+  background-image: url(../imgs/trail1-2.png);  
+}
+.circle-img6{
+  background-image: url(../imgs/trail1-2.png);  
+}
+
+.circle-1 {
+    width: 100%;
+    height: 100%;
+  background-size: cover;
+  background-position: center;
+    border-radius:50%;
+  overflow: hidden;
+  box-shadow: 
+		inset 0 0 0 0 rgba(89, 64, 92, 0.4),
+		inset 0 0 0 20px rgba(255, 255, 255, 0.5),
+		0 1px 2px rgba(0, 0, 0, 0.3);
+	transition: all 0.4s ease-in-out;
+}
+
+.circle-1:hover {
+  box-shadow: 
+		inset 0 0 0 12.5vw rgba(89, 64, 92, 0.6),
+		inset 0 0 0 20px rgba(89, 64, 92, 0.6),
+		0 1px 2px rgba(0, 0, 0, 0.5);
+}
+.red{
+    text-align: center;
+}
+.red h3 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing:1vw;
+	font-size: 2vw;
+  height: 2vw;
+	margin: 0;
+	padding: 11vw 2vw 2vw 2vw;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+.red p {
+  font-size: 2vw;
+  color: #fff;
+  border-top: 0.20vw solid rgba(255, 255, 255, 0.5);
+  padding-top: 1vw;
+  margin: 0 4vw;
+  line-height: 1.7vw;
+}
+
+.red p a {
+  text-decoration: none;
+  letter-spacing: 5vw;
+  color: #fff;
+}
+
+
+.red-2 {
+/*
+    background-image: url(../imgs/trail1-2.png);
+    background-size: cover;
+    background-position: center;
+*/
+	overflow: hidden;
+	opacity: 0;
+	transition: all 0.4s ease-in-out;
+	transform: scale(0);
+}
+
+.red-2 p a:hover {
+	color: white;
+}
+
+.circle2
+{
+grid-area:r2;
+border-radius:50%;
+height:25vw;
+width:25vw;
+position:relative;
+}
+.circle3
+{
+grid-area:b3;
+border-radius:50%;
+height:25vw;
+width:25vw;
+position:relative;
+}
+.circle4
+{
+grid-area:b1;
+border-radius:50%;
+height:25vw;
+width:25vw;
+position:relative;
+}
+.circle5
+{
+grid-area:y2;
+border-radius:50%;
+height:25vw;
+width:25vw;
+position:relative;
+}
+.circle6
+{
+grid-area:b4;
+border-radius:50%;
+height:25vw;
+width:25vw;
+position:relative;
+}
+
+.circle7
+{
+grid-area:c1;
+border-radius:50%;
+height:25vw;
+width:25vw;
+position:relative;
+}
+
+.circle8
+{
+grid-area:c2;
+border-radius:50%;
+height:25vw;
+width:25vw;
+position:relative;
+}
+
+.parent2
+{
+display:grid;
+height:70vh;
+width:80vw;
+
+grid-template-areas: "s1 s2 s3"
+                     "s4 s5 s6";
+/*margin-top:2vw;*/
+grid-gap:1vw;
+position:absolute;
+}
+
+/*
+.semi1{
+grid-area:s1;
+width: 200px;
+height: 100px;
+background-color:gray;
+border-top-left-radius: 110px;
+border-top-right-radius: 110px;
+border: 10px solid gray;
+border-bottom: 0;  
+}*/
+.show{
+    display:block;
 }
 
